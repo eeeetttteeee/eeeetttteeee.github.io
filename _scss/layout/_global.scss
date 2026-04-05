@@ -6,6 +6,11 @@
  *
  **/
 
+// Prevent subpixel / transform seams from revealing body background as a side strip
+html {
+  overflow-x: hidden;
+}
+
 body {
 
   // Typography
